@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    ,<script src="./app.js" defer></script>
+</head>
+<body>
+    <h2>Certain Precautions:</h2>
+    <ul>
+        <li>In order to use sin, log and cos first input the numbers (in degree) and then press the button</li>
+        <li>Pressing the factorial (!) button directly gives the answer. It has a default value for 1!</li>
+    </ul>
+    <div class="calc">
+        <div class="display">
+            <h2 class="ans"></h2>
+        </div>
+        <div class="controls">
+            <div class="row">
+                <button class="on-off">On/Off</button>
+                <button class="clearScreen">AC</button>
+            </div>
+            <div class="row">
+                <button class="operator" id="factorial">!</button>
+                <button class="operator" id="sin">sin</button>
+                <button class="operator" id="cos">cos</button>
+                <button class="operator" id="log">log</button>
+                <button class="operator" id="clear">Clear</button>
+            </div>
+            <div class="row">
+                <button class="number" id="one">1</button>
+                <button class="number" id="two">2</button>
+                <button class="number" id="three">3</button>
+                <button class="operator" id="add">+</button>
+                <button class="operator" id="remainder">Rem</button>
+            </div>
+            <div class="row">
+                <button class="number" id="four">4</button>
+                <button class="number" id="five">5</button>
+                <button class="number" id="six">6</button>
+                <button class="operator" id="sub">-</button>
+                <button class="operator" id="mul">X</button>
+            </div>
+            <div class="row">
+                <button class="number" id="seven">7</button>
+                <button class="number" id="eight">8</button>
+                <button class="number" id="nine">9</button>
+                <button class="operator" id="div">/</button>
+                <button class="operator" id="power">^</button>
+            </div>
+            <div class="row">
+                <button class="number" id="zero">0</button>
+                <button class="number" id="dZero">00</button>
+                <button class="number" id=".">.</button>
+                <button class="operator" id="percentage">%</button>
+                <button class="operator" id="equal">=</button>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
